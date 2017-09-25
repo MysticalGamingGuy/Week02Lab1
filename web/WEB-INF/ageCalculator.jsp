@@ -15,7 +15,7 @@
         <h1>Age next Birthday</h1>
         <form action="agecalculator" method="post">
             Enter Your Current Birthday 
-            <input name="birth" type="text" placeholder="Birthday" > 
+            <input name="birth" type="text" placeholder="Birthday" value="${birth}"> 
             <input type="submit" value="Age Next Birthday">
             <p>${message}</p>
         </form>
